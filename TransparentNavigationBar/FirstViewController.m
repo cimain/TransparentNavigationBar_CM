@@ -72,6 +72,7 @@
     }
     //显示导航栏
     [self.navigationController setNavigationBarHidden:NO animated:YES];
+    [self.navigationController.navigationBar setTranslucent:YES];
 }
 
 
@@ -93,7 +94,7 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage bgImageFromColors:@[(id)UIColorFromRGB(0x9ebd3a), (id)UIColorFromRGB(0x0075b6)] withFrame:frame] forBarMetrics:UIBarMetricsDefault];
     
     //设置导航栏分割线
-    [self.navigationController.navigationBar setTranslucent:YES];
+    [self.navigationController.navigationBar setTranslucent:NO];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView

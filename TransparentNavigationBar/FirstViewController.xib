@@ -30,7 +30,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNd-Fr-bRG" userLabel="headView">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="177"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="headView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkM-Fh-fkC">
                                             <rect key="frame" x="149" y="104" width="76" height="21"/>
@@ -42,11 +42,11 @@
                                     </subviews>
                                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="180" id="MSv-33-lw5"/>
+                                        <constraint firstAttribute="height" constant="177" id="MSv-33-lw5"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lHI-2m-sJn" userLabel="downView">
-                                    <rect key="frame" x="0.0" y="170" width="375" height="448"/>
+                                    <rect key="frame" x="0.0" y="167" width="375" height="451"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="downView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0CG-w4-69f">
                                             <rect key="frame" x="148" y="203" width="78" height="21"/>
