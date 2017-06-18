@@ -18,8 +18,8 @@
 		F7200D7E1EF55E1700D9D23F /* TransparentNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7200D7D1EF55E1700D9D23F /* TransparentNavigationBarUITests.m */; };
 		F7200D8C1EF55E4900D9D23F /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7200D8B1EF55E4900D9D23F /* FirstViewController.xib */; };
 		F7200D901EF5623D00D9D23F /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = F7200D8F1EF5623D00D9D23F /* UIImage+Color.m */; };
-		F7200D9B1EF5653D00D9D23F /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7200D991EF5653D00D9D23F /* TabBarViewController.m */; };
-		F7200D9C1EF5653D00D9D23F /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7200D9A1EF5653D00D9D23F /* TabBarViewController.xib */; };
+		F732FA841EF6362F00FF9AB9 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F732FA821EF6362F00FF9AB9 /* TabBarViewController.m */; };
+		F732FA851EF6362F00FF9AB9 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F732FA831EF6362F00FF9AB9 /* TabBarViewController.xib */; };
 		F7EAF3FB1EF567A000F68830 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EAF3FA1EF567A000F68830 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -63,9 +63,9 @@
 		F7200D8E1EF5623D00D9D23F /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		F7200D8F1EF5623D00D9D23F /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		F7200D921EF5631B00D9D23F /* MacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
-		F7200D981EF5653D00D9D23F /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarViewController.h; path = ../TabBarViewController.h; sourceTree = "<group>"; };
-		F7200D991EF5653D00D9D23F /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarViewController.m; path = ../TabBarViewController.m; sourceTree = "<group>"; };
-		F7200D9A1EF5653D00D9D23F /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabBarViewController.xib; path = ../TabBarViewController.xib; sourceTree = "<group>"; };
+		F732FA811EF6362F00FF9AB9 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		F732FA821EF6362F00FF9AB9 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		F732FA831EF6362F00FF9AB9 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
 		F7EAF3FA1EF567A000F68830 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,9 +121,9 @@
 				F7200D8D1EF561DF00D9D23F /* Category */,
 				F7200D581EF55E1600D9D23F /* AppDelegate.h */,
 				F7200D591EF55E1600D9D23F /* AppDelegate.m */,
-				F7200D981EF5653D00D9D23F /* TabBarViewController.h */,
-				F7200D991EF5653D00D9D23F /* TabBarViewController.m */,
-				F7200D9A1EF5653D00D9D23F /* TabBarViewController.xib */,
+				F732FA811EF6362F00FF9AB9 /* TabBarViewController.h */,
+				F732FA821EF6362F00FF9AB9 /* TabBarViewController.m */,
+				F732FA831EF6362F00FF9AB9 /* TabBarViewController.xib */,
 				F7200D5B1EF55E1600D9D23F /* FirstViewController.h */,
 				F7200D5C1EF55E1600D9D23F /* FirstViewController.m */,
 				F7200D8B1EF55E4900D9D23F /* FirstViewController.xib */,
@@ -291,10 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7200D9C1EF5653D00D9D23F /* TabBarViewController.xib in Resources */,
 				F7200D681EF55E1600D9D23F /* LaunchScreen.storyboard in Resources */,
 				F7EAF3FB1EF567A000F68830 /* SecondViewController.xib in Resources */,
 				F7200D651EF55E1600D9D23F /* Assets.xcassets in Resources */,
+				F732FA851EF6362F00FF9AB9 /* TabBarViewController.xib in Resources */,
 				F7200D631EF55E1600D9D23F /* Main.storyboard in Resources */,
 				F7200D8C1EF55E4900D9D23F /* FirstViewController.xib in Resources */,
 			);
@@ -323,9 +323,9 @@
 			files = (
 				F7200D601EF55E1600D9D23F /* SecondViewController.m in Sources */,
 				F7200D5A1EF55E1600D9D23F /* AppDelegate.m in Sources */,
+				F732FA841EF6362F00FF9AB9 /* TabBarViewController.m in Sources */,
 				F7200D901EF5623D00D9D23F /* UIImage+Color.m in Sources */,
 				F7200D5D1EF55E1600D9D23F /* FirstViewController.m in Sources */,
-				F7200D9B1EF5653D00D9D23F /* TabBarViewController.m in Sources */,
 				F7200D571EF55E1600D9D23F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -65,7 +65,7 @@
     
     [super viewWillAppear:animated];
     //导航栏设置透明
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Transparent_BG_Title-High"] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"TransparentNavBar"] forBarMetrics:UIBarMetricsDefault];
     //设置导航栏分割线:透明
     if ([self.navigationController.navigationBar respondsToSelector:@selector(shadowImage)]) {
         [self.navigationController.navigationBar setShadowImage:[UIImage new]];
