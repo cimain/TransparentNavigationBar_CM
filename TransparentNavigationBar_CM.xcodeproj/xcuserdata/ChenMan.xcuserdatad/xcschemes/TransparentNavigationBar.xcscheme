@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7200D511EF55E1600D9D23F"
-               BuildableName = "TransparentNavigationBar.app"
-               BlueprintName = "TransparentNavigationBar"
-               ReferencedContainer = "container:TransparentNavigationBar.xcodeproj">
+               BuildableName = "TransparentNavigationBar_CM.app"
+               BlueprintName = "TransparentNavigationBar_CM"
+               ReferencedContainer = "container:TransparentNavigationBar_CM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7200D6D1EF55E1700D9D23F"
-               BuildableName = "TransparentNavigationBarTests.xctest"
-               BlueprintName = "TransparentNavigationBarTests"
-               ReferencedContainer = "container:TransparentNavigationBar.xcodeproj">
+               BuildableName = "TransparentNavigationBar_CMTests.xctest"
+               BlueprintName = "TransparentNavigationBar_CMTests"
+               ReferencedContainer = "container:TransparentNavigationBar_CM.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7200D781EF55E1700D9D23F"
-               BuildableName = "TransparentNavigationBarUITests.xctest"
-               BlueprintName = "TransparentNavigationBarUITests"
-               ReferencedContainer = "container:TransparentNavigationBar.xcodeproj">
+               BuildableName = "TransparentNavigationBar_CMUITests.xctest"
+               BlueprintName = "TransparentNavigationBar_CMUITests"
+               ReferencedContainer = "container:TransparentNavigationBar_CM.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7200D511EF55E1600D9D23F"
-            BuildableName = "TransparentNavigationBar.app"
-            BlueprintName = "TransparentNavigationBar"
-            ReferencedContainer = "container:TransparentNavigationBar.xcodeproj">
+            BuildableName = "TransparentNavigationBar_CM.app"
+            BlueprintName = "TransparentNavigationBar_CM"
+            ReferencedContainer = "container:TransparentNavigationBar_CM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7200D511EF55E1600D9D23F"
-            BuildableName = "TransparentNavigationBar.app"
-            BlueprintName = "TransparentNavigationBar"
-            ReferencedContainer = "container:TransparentNavigationBar.xcodeproj">
+            BuildableName = "TransparentNavigationBar_CM.app"
+            BlueprintName = "TransparentNavigationBar_CM"
+            ReferencedContainer = "container:TransparentNavigationBar_CM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7200D511EF55E1600D9D23F"
-            BuildableName = "TransparentNavigationBar.app"
-            BlueprintName = "TransparentNavigationBar"
-            ReferencedContainer = "container:TransparentNavigationBar.xcodeproj">
+            BuildableName = "TransparentNavigationBar_CM.app"
+            BlueprintName = "TransparentNavigationBar_CM"
+            ReferencedContainer = "container:TransparentNavigationBar_CM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

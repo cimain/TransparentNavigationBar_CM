@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F7200D521EF55E1600D9D23F /* TransparentNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7200D521EF55E1600D9D23F /* TransparentNavigationBar_CM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentNavigationBar_CM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7200D561EF55E1600D9D23F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7200D581EF55E1600D9D23F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7200D591EF55E1600D9D23F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,10 +53,10 @@
 		F7200D641EF55E1600D9D23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7200D671EF55E1600D9D23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7200D691EF55E1600D9D23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7200D6E1EF55E1700D9D23F /* TransparentNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7200D6E1EF55E1700D9D23F /* TransparentNavigationBar_CMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentNavigationBar_CMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7200D721EF55E1700D9D23F /* TransparentNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentNavigationBarTests.m; sourceTree = "<group>"; };
 		F7200D741EF55E1700D9D23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7200D791EF55E1700D9D23F /* TransparentNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7200D791EF55E1700D9D23F /* TransparentNavigationBar_CMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransparentNavigationBar_CMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7200D7D1EF55E1700D9D23F /* TransparentNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentNavigationBarUITests.m; sourceTree = "<group>"; };
 		F7200D7F1EF55E1700D9D23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7200D8B1EF55E4900D9D23F /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 		F7200D531EF55E1600D9D23F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7200D521EF55E1600D9D23F /* TransparentNavigationBar.app */,
-				F7200D6E1EF55E1700D9D23F /* TransparentNavigationBarTests.xctest */,
-				F7200D791EF55E1700D9D23F /* TransparentNavigationBarUITests.xctest */,
+				F7200D521EF55E1600D9D23F /* TransparentNavigationBar_CM.app */,
+				F7200D6E1EF55E1700D9D23F /* TransparentNavigationBar_CMTests.xctest */,
+				F7200D791EF55E1700D9D23F /* TransparentNavigationBar_CMUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7200D511EF55E1600D9D23F /* TransparentNavigationBar */ = {
+		F7200D511EF55E1600D9D23F /* TransparentNavigationBar_CM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7200D821EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar" */;
+			buildConfigurationList = F7200D821EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar_CM" */;
 			buildPhases = (
 				F7200D4E1EF55E1600D9D23F /* Sources */,
 				F7200D4F1EF55E1600D9D23F /* Frameworks */,
@@ -197,14 +197,14 @@
 			);
 			dependencies = (
 			);
-			name = TransparentNavigationBar;
+			name = TransparentNavigationBar_CM;
 			productName = TransparentNavigationBar;
-			productReference = F7200D521EF55E1600D9D23F /* TransparentNavigationBar.app */;
+			productReference = F7200D521EF55E1600D9D23F /* TransparentNavigationBar_CM.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7200D6D1EF55E1700D9D23F /* TransparentNavigationBarTests */ = {
+		F7200D6D1EF55E1700D9D23F /* TransparentNavigationBar_CMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7200D851EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBarTests" */;
+			buildConfigurationList = F7200D851EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar_CMTests" */;
 			buildPhases = (
 				F7200D6A1EF55E1700D9D23F /* Sources */,
 				F7200D6B1EF55E1700D9D23F /* Frameworks */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				F7200D701EF55E1700D9D23F /* PBXTargetDependency */,
 			);
-			name = TransparentNavigationBarTests;
+			name = TransparentNavigationBar_CMTests;
 			productName = TransparentNavigationBarTests;
-			productReference = F7200D6E1EF55E1700D9D23F /* TransparentNavigationBarTests.xctest */;
+			productReference = F7200D6E1EF55E1700D9D23F /* TransparentNavigationBar_CMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F7200D781EF55E1700D9D23F /* TransparentNavigationBarUITests */ = {
+		F7200D781EF55E1700D9D23F /* TransparentNavigationBar_CMUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7200D881EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBarUITests" */;
+			buildConfigurationList = F7200D881EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar_CMUITests" */;
 			buildPhases = (
 				F7200D751EF55E1700D9D23F /* Sources */,
 				F7200D761EF55E1700D9D23F /* Frameworks */,
@@ -233,9 +233,9 @@
 			dependencies = (
 				F7200D7B1EF55E1700D9D23F /* PBXTargetDependency */,
 			);
-			name = TransparentNavigationBarUITests;
+			name = TransparentNavigationBar_CMUITests;
 			productName = TransparentNavigationBarUITests;
-			productReference = F7200D791EF55E1700D9D23F /* TransparentNavigationBarUITests.xctest */;
+			productReference = F7200D791EF55E1700D9D23F /* TransparentNavigationBar_CMUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -244,8 +244,9 @@
 		F7200D4A1EF55E1600D9D23F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CM;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "满 陈";
+				ORGANIZATIONNAME = ChenMan;
 				TargetAttributes = {
 					F7200D511EF55E1600D9D23F = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -266,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7200D4D1EF55E1600D9D23F /* Build configuration list for PBXProject "TransparentNavigationBar" */;
+			buildConfigurationList = F7200D4D1EF55E1600D9D23F /* Build configuration list for PBXProject "TransparentNavigationBar_CM" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -279,9 +280,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7200D511EF55E1600D9D23F /* TransparentNavigationBar */,
-				F7200D6D1EF55E1700D9D23F /* TransparentNavigationBarTests */,
-				F7200D781EF55E1700D9D23F /* TransparentNavigationBarUITests */,
+				F7200D511EF55E1600D9D23F /* TransparentNavigationBar_CM */,
+				F7200D6D1EF55E1700D9D23F /* TransparentNavigationBar_CMTests */,
+				F7200D781EF55E1700D9D23F /* TransparentNavigationBar_CMUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -351,12 +352,12 @@
 /* Begin PBXTargetDependency section */
 		F7200D701EF55E1700D9D23F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7200D511EF55E1600D9D23F /* TransparentNavigationBar */;
+			target = F7200D511EF55E1600D9D23F /* TransparentNavigationBar_CM */;
 			targetProxy = F7200D6F1EF55E1700D9D23F /* PBXContainerItemProxy */;
 		};
 		F7200D7B1EF55E1700D9D23F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7200D511EF55E1600D9D23F /* TransparentNavigationBar */;
+			target = F7200D511EF55E1600D9D23F /* TransparentNavigationBar_CM */;
 			targetProxy = F7200D7A1EF55E1700D9D23F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -506,7 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.limbank.test123.TransparentNavigationBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransparentNavigationBar.app/TransparentNavigationBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransparentNavigationBar_CM.app/TransparentNavigationBar_CM";
 			};
 			name = Debug;
 		};
@@ -519,7 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.limbank.test123.TransparentNavigationBarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransparentNavigationBar.app/TransparentNavigationBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransparentNavigationBar_CM.app/TransparentNavigationBar_CM";
 			};
 			name = Release;
 		};
@@ -550,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7200D4D1EF55E1600D9D23F /* Build configuration list for PBXProject "TransparentNavigationBar" */ = {
+		F7200D4D1EF55E1600D9D23F /* Build configuration list for PBXProject "TransparentNavigationBar_CM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7200D801EF55E1700D9D23F /* Debug */,
@@ -559,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7200D821EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar" */ = {
+		F7200D821EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar_CM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7200D831EF55E1700D9D23F /* Debug */,
@@ -568,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7200D851EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBarTests" */ = {
+		F7200D851EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar_CMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7200D861EF55E1700D9D23F /* Debug */,
@@ -577,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7200D881EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBarUITests" */ = {
+		F7200D881EF55E1700D9D23F /* Build configuration list for PBXNativeTarget "TransparentNavigationBar_CMUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7200D891EF55E1700D9D23F /* Debug */,
